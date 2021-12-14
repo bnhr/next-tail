@@ -3,7 +3,9 @@ import Layout from '@/components/Layout/Layout';
 
 const Home: NextPage = () => (
   <Layout>
-    <p>hello next.js</p>
+    <p className="text-3xl text-blue-900 font-semibold">
+      hello from next.js and tailwindcss
+    </p>
   </Layout>
 );
 

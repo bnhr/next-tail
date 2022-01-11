@@ -6,8 +6,8 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc --pretty --noEmit",
-    "lint": "eslint '*/**/*.{ts,tsx}' --quiet",
-    "lint:fix": "eslint '*/**/*.{ts,tsx}' --fix",
+    "lint": "eslint '*/**/*.{ts,tsx}' --cache --quiet",
+    "lint:fix": "eslint '*/**/*.{ts,tsx}' --cache --fix",
     "format": "prettier --write .",
     "fix:all": "yarn type-check && yarn lint:fix && yarn format",
     "prepare": "husky install"
@@ -43,7 +43,7 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "eslint '*/**/*.{ts,tsx}' --fix",
+      "eslint '*/**/*.{ts,tsx}' --cache --fix",
       "prettier --write ."
     ],
     "src/**/*.{json,css,scss,md,mdx,js}": [

@@ -5,7 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --pretty --noEmit",
+    "type:check": "tsc --pretty --noEmit",
     "lint": "eslint '*/**/*.{ts,tsx}' --cache --quiet",
     "lint:fix": "eslint '*/**/*.{ts,tsx}' --cache --fix",
     "format": "prettier --write .",

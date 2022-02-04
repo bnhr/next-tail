@@ -6,5 +6,6 @@
 
 ```
 yarn create next-app [project-name] -e https://github.com/bnhr/next-tail
+cd [project name]
 yarn dev
 ```

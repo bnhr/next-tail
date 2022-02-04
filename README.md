@@ -5,8 +5,6 @@
 ### Running Locally
 
 ```
-git clone https://github.com/bnhr/next-tail
-cd next-tail
-yarn
+yarn create next-app [project-name] -e https://github.com/bnhr/next-tail
 yarn dev
 ```

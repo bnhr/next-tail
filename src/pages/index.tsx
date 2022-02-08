@@ -1,5 +1,5 @@
-import type { NextPage } from 'next';
-import Layout from '@/components/Layout/Layout';
+import type { NextPage } from 'next'
+import Layout from '@/components/Layout/Layout'
 
 const Home: NextPage = () => (
   <Layout>
@@ -7,6 +7,6 @@ const Home: NextPage = () => (
       hello from Next.js and <span className="font-bold">Tailwind CSS</span>
     </p>
   </Layout>
-);
+)
 
-export default Home;
+export default Home

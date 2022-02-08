@@ -1,5 +1,5 @@
 {
-  "name": "next-starter-typescript",
+  "name": "next-tail",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "lint": "eslint '*/**/*.{ts,tsx}' --cache --quiet",
     "lint:fix": "eslint '*/**/*.{ts,tsx}' --cache --fix",
     "format": "prettier --write .",
-    "fix:all": "yarn type-check && yarn lint:fix && yarn format",
+    "fix:all": "yarn type:check && yarn lint:fix && yarn format",
     "prepare": "husky install"
   },
   "dependencies": {
@@ -44,10 +44,9 @@
   },
   "lint-staged": {
     "src/**/*.{ts,tsx}": [
-      "eslint '*/**/*.{ts,tsx}' --cache --fix",
-      "prettier --write ."
+      "eslint '*/**/*.{ts,tsx}' --cache --fix"
     ],
-    "src/**/*.{json,css,scss,md,mdx,js}": [
+    "src/**/*.{ts,tsx,json,css,scss,md,mdx,js}": [
       "prettier --write ."
     ]
   }

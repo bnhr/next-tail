@@ -23,6 +23,7 @@
     "react/jsx-filename-extension": [1, { "extensions": ["ts", "tsx"] }],
     "import/no-unresolved": "off",
     "import/extensions": "off",
+    "semi": [2, "never"],
     "no-undef": "off",
     "global-require": "off",
     "no-unused-vars": "off",

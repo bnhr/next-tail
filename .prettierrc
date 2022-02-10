@@ -1,10 +1,15 @@
 {
-  "semi": false,
-  "trailingComma": "all",
-  "singleQuote": true,
-  "jsxSingleQuote": false,
   "printWidth": 80,
   "tabWidth": 2,
+  "useTabs": false,
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "trailingComma": "all",
+  "requirePragma": false,
+  "insertPragma": false,
+  "htmlWhitespaceSensitivity": "css",
   "endOfLine": "lf",
   "tailwindConfig": "./tailwind.config.js"
 }

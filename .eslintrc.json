@@ -20,7 +20,6 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": ["ts", "tsx"] }],
     "import/no-unresolved": "off",
     "import/extensions": "off",
     "semi": [2, "never"],
@@ -32,6 +31,7 @@
     "react/prop-types": "off",
     "react/require-default-props": "off",
     "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { "extensions": ["ts", "tsx"] }],
     "react/jsx-props-no-spreading": "off",
     "react/jsx-one-expression-per-line": "off",
     "jsx-a11y/anchor-is-valid": "off",

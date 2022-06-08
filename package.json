@@ -22,7 +22,7 @@
     "@commitlint/cli": "16.3.0",
     "@commitlint/config-conventional": "16.2.4",
     "@next/eslint-plugin-next": "12.1.6",
-    "@types/node": "16.11.38",
+    "@types/node": "16.11.39",
     "@types/react": "18.0.12",
     "@typescript-eslint/eslint-plugin": "5.27.1",
     "@typescript-eslint/parser": "5.27.1",

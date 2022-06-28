@@ -9,7 +9,7 @@
     "lint": "eslint '*/**/*.{ts,tsx}' --cache --quiet",
     "lint:fix": "eslint '*/**/*.{ts,tsx}' --cache --fix",
     "format": "prettier --write .",
-    "fix:all": "yarn type:check && yarn lint:fix && yarn format",
+    "fix:all": "pnpm type:check && pnpm lint:fix && pnpm format",
     "prepare": "husky install"
   },
   "dependencies": {

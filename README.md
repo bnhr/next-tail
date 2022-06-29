@@ -10,4 +10,4 @@ cd [project name]
 pnpm run dev
 ```
 
-if you prefer other package manager, replace it with yarn or npm
+if you prefer other package manager, replace it with yarn or npm.
